@@ -8,8 +8,22 @@
     <h3>Sign up for Library Membership</h3>
     <form>
         <!--student id-->
-            Enter your student id<br>
+            Enter your student id:<br>
             <input type="text" placeholder="student id" name="student id" required><br><br>
+        <!--name in thai-->
+            Title(Thai)<br>
+            <select name="title">
+                <option value="นาย">นาย</option>
+                <option value="นาย">นาง</option>
+                <option value="นาย">นางสาว</option>
+            </select><br><br>
+        <!--name in eng-->
+            Title(Eng)<br>
+            <select name="title">
+            <option value="Mr">Mr.</option>
+            <option value="Mrs">Mrs.</option>
+            <option value="Miss">Miss</option>
+            </select><br><br>
         <!--gender-->
             <label for="gender">Gender:</label><br>
             <input type="radio" id="male" name="gender" value="male">
